@@ -1,0 +1,175 @@
+
+body{
+    background-color: #EFDCAB;
+    color: #443627;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+header {
+    background-color: rgb(228, 240, 226); /*rgb(215, 6, 84);*/
+    border-radius:2cqb;
+   
+}
+
+#titulo-principal {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Menu Principal*/
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.link-menu {
+    color: #D98324;
+    text-decoration: none;
+    font-weight:bold;
+    font-style: normal;
+    font-size: large;
+}
+
+li a:hover {
+    color: rgb(197, 195, 196);
+}
+
+#menu {
+    background-color: #000000;
+    height: 30%;
+    border-bottom-left-radius:2cqb;
+    border-bottom-right-radius:2cqb;
+}
+
+/*Formação Profissional, Soft e Hard Skills */
+.subtitulos {
+    text-align: center;
+}
+
+#texto-inicial{
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+li{
+    justify-content: space-around;
+    height: 95%;
+    font-size: 30px;
+}
+
+div{
+    justify-content: space-around;
+    list-style-type: none;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color: #443627;
+    font-size: 30px;
+}
+
+
+h3{
+    height: 80;
+    font-size: 30px
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+/*Soft e Hard Skills*/
+.div-section {
+    width: 100%;
+    background-color: #D98324;
+    padding: 7px;
+    text-align: justify;
+    border-radius:2cqb;
+}
+
+#section1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/*Seção Projetos*/
+#container-projetos {
+    display: flex;
+}
+
+.div-projetos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto {
+    text-align: center;
+    border: 2px #D98324 solid;
+    margin: 5px;
+    float: left;
+    padding: 5px;
+    border-radius: 2cqb;
+    height: 240px;
+    width: 33%;
+    font-size: 25px;
+
+} 
+
+
+
+.titulos-projetos {
+    font-size: 30px;
+}
+.textos-projetos {
+    font-size: 15px;
+}
+
+
+
+/*****************Footer******************/
+footer {
+    background-color: rgb(1, 95, 182);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius:2cqb;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/******************Página Sobre Mim******************/
+
+#texto-sobre-mim {
+    text-align: justify;
+    margin: 15px;
+    line-height: 30px;
+}
+
+
+#texto-e-foto {
+    text-align: center;
+}
